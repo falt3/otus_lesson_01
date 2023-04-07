@@ -1,13 +1,15 @@
+#include "lib.h"
+
 #include <iostream>
 
-using namespace std;
-
+// using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    std::cout << "Version: " << version() << std::endl;
+    std::cout << "Hello World!" << std::endl;
     char a;
-    cin >> a;
+    std::cin >> a;
     
     return 0;
 }
